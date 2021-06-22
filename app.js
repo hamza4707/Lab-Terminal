@@ -43,7 +43,7 @@ app.use(function (err, req, res, next) {
 
 mongoose
   .connect(
-    "mongodb+srv://uqba:1234@cluster0.aynup.mongodb.net/uqbaterminal?retryWrites=true&w=majority",
+    "mongodb+srv://hamza:ronaldo_7@terminal.qcm8e.mongodb.net/Terminal",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
