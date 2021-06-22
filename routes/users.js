@@ -31,7 +31,7 @@ router.post("/register", async function (req, res, next) {
   let user = await User.findOne({ email: req.body.email });
   if (user)
     return res.render("users/register", {
-      error: "User with given Email already exist",
+      error: "User with this Email already exist!",
     });
   let { error } = validate(req.body, user);
   if (error) {
