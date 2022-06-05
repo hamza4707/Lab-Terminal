@@ -1,2 +1,2 @@
-# uqba-wt-terminal
+# hamza-wt-terminal
  
